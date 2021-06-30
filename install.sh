@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-devide=$' \n'"---------------------------------------------------------------------"$'\n'
-
-echo "$devide"
-
 sudo apt update
 sudo apt install mysql-server -y
 sudo mysql_secure_installation
